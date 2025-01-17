@@ -5,9 +5,10 @@ type Props = {
 	title?: string;
 	description?: string;
 	image?: string;
+	bsky?: string;
 };
 
-const { title, description, image } = Astro.props;
+const { title, description, image, bsky } = Astro.props;
 ---
 
 <!doctype html>
@@ -33,11 +34,12 @@ const { title, description, image } = Astro.props;
 			</div>
 
 			<div class="links">
-				<a
-					href="https://bsky.app/profile/did:plc:753lv7a7d6zmzklkcejtf7gp/post/3lftwp375v22q"
-					>← Back to Bluesky tweet</a
-				>
-				||
+				{bsky && (
+					<>
+						<a href={bsky}>← Back to Bluesky tweet</a>
+						||
+					</>
+				)}
 				<a href="/archive/">Post Archive</a>
 			</div>
 			<div class="main">
@@ -52,10 +54,17 @@ const { title, description, image } = Astro.props;
 
 <script>
 	(() => {
-		const headerImages = ['/img/headers/eupho1.png', '/img/headers/saki.gif'];
-	
+		const headerImages = [
+			"/img/headers/eupho1.png",
+			"/img/headers/saki.gif",
+			"/img/headers/zombie.gif",
+			"/img/headers/yuki.webp",
+			"/img/headers/nanoha.webp",
+		];
+
 		const headerElement = document.getElementById("header")!;
-		const randomHeader = headerImages[Math.floor(Math.random() * headerImages.length)];
+		const randomHeader =
+			headerImages[Math.floor(Math.random() * headerImages.length)];
 		headerElement.style.backgroundImage = `url(${randomHeader})`;
 	})();
 </script>
