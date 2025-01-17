@@ -29,24 +29,28 @@ const { title, description, image, bsky } = Astro.props;
 
 	<body>
 		<div class="wrapper">
-			<div id="header">
-				<h1>Randall's Media Thread Blog</h1>
-			</div>
+			<a href="/">
+				<div id="header">
+					<h1>Randall's Media Thread Blog</h1>
+				</div>
+			</a>
 
 			<div class="links">
-				{bsky && (
-					<>
-						<a href={bsky}>← Back to Bluesky tweet</a>
-						||
-					</>
-				)}
+				{
+					bsky && (
+						<>
+							<a href={bsky}>← Back to Bluesky tweet</a>
+							||
+						</>
+					)
+				}
 				<a href="/archive/">Post Archive</a>
 			</div>
 			<div class="main">
 				<slot />
 			</div>
 			<div class="footer">
-				Base CSS made by EGGRAMEN, with <strike>frustration</strike> love.
+				Base CSS made by EGGRAMEN, with <strike>frustration</strike> love. Special thanks to <a style="color:#e486be" href="snep.pw">Snep</a> for making this project viable for me.
 			</div>
 		</div>
 	</body>
@@ -166,6 +170,9 @@ const { title, description, image, bsky } = Astro.props;
 	}
 
 	@media (max-width: 430px) {
+		#header{
+			height:155px;
+		}
 		#header h2,
 		#header h3,
 		#header h1 {

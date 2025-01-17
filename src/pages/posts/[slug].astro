@@ -30,12 +30,12 @@ const { Content } = await render(post);
     <div class="content-footer">
         {
             last ? (
-                <a href={`/posts/${last.id}`}>Last Post: {last.data.title}</a>
+                <a href={`/posts/${last.id}`}>← Previous Post: {last.data.title}</a>
             ) : (
                 <div />
             )
         }
-        {next && <a href={`/posts/${next.id}`}>Next Post: {next.data.title}</a>}
+        {next && <a href={`/posts/${next.id}`}>Next Post: {next.data.title} →</a>}
     </div>
 </Layout>
 
@@ -43,5 +43,9 @@ const { Content } = await render(post);
     .content-footer {
         display: flex;
         justify-content: space-between;
+    }
+    .content-footer a{
+        color:white;
+        text-decoration: underline !important;
     }
 </style>
