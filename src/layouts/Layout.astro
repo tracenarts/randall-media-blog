@@ -1,0 +1,166 @@
+---
+import "../assets/style.css";
+
+type Props = {
+	title?: string;
+	description?: string;
+	image?: string;
+};
+
+const { title, description, image } = Astro.props;
+---
+
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Randall's Media Thread Blog - {title}</title>
+		<meta content={title} property="og:title" />
+		<meta content={description} property="og:description" />
+		<meta content={Astro.url.toString()} property="og:url" />
+		<meta content={image} property="og:image" />
+		<meta content="#7143B5" data-react-helmet="true" name="theme-color" />
+		<!-- WHY THE FUCK ARE THERE SO MANY OF THESE AND WHY DOES TWITTER NEED ITS OWN -->
+		<meta name="twitter:card" content="summary_large_image" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div id="header">
+				<h1>Randall's Media Thread Blog</h1>
+			</div>
+
+			<div class="links">
+				<a
+					href="https://bsky.app/profile/did:plc:753lv7a7d6zmzklkcejtf7gp/post/3lftwp375v22q"
+					>← Back to Bluesky tweet</a
+				>
+				||
+				<a href="/archive/">Post Archive</a>
+			</div>
+			<div class="main">
+				<slot />
+			</div>
+			<div class="footer">
+				Base CSS made by EGGRAMEN, with <strike>frustration</strike> love.
+			</div>
+		</div>
+	</body>
+</html>
+
+<script>
+	(() => {
+		const headerImages = ['/img/headers/eupho1.png', '/img/headers/saki.gif'];
+	
+		const headerElement = document.getElementById("header")!;
+		const randomHeader = headerImages[Math.floor(Math.random() * headerImages.length)];
+		headerElement.style.backgroundImage = `url(${randomHeader})`;
+	})();
+</script>
+
+<style>
+	body {
+		background: #252525;
+		font-family: "Candara", "Open Sans", sans-serif;
+		font-size: 16px;
+		color: white;
+	}
+
+	#header {
+		position: relative;
+		height: 300px;
+		border-bottom: 3px solid black;
+		margin: 0 auto;
+		overflow: hidden;
+		background: url("https://i.imgur.com/JnQEWOj.jpeg");
+		/*Header image -- replace with your own!*/
+		background-size: cover;
+	}
+
+	/*This and the header-title class are deprecated now that this style uses a background image for the header div.*/
+	/*.header img {
+  display: block;
+  opacity: 0.35;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  }
+*/
+
+	/*If you want to use a smaller title or normal text, add .header p or .header h4 or whatever to the list*/
+	#header h2,
+	#header h3,
+	#header h1 {
+		font-weight: bold;
+		color: white;
+		text-align: right;
+		border: 0px solid green;
+		position: absolute;
+		bottom: 1px;
+		left: 345px;
+		opacity: 0.999999;
+		text-shadow: #000 2px 2px 3px;
+	}
+
+	.links {
+		background: black;
+		padding: 10px;
+		border-bottom: 3px solid black;
+	}
+
+	.links a {
+		color: white;
+		padding: 3px;
+		margin-left: 5px;
+		margin-right: 5px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.links a:hover {
+		text-decoration: underline;
+	}
+
+	/*Everything in the main box goes in this*/
+	.wrapper {
+		width: 750px;
+		border: 3px solid black;
+		margin: 0 auto;
+		top: 0px;
+	}
+
+	.footer {
+		background: black;
+		padding: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-top: 3px solid black;
+		font-size: 14px;
+	}
+
+	/*For narrow screens*/
+	@media (max-width: 790px) {
+		.wrapper {
+			width: 95%;
+		}
+
+		#header h2,
+		#header h3,
+		#header h1 {
+			left: auto;
+			text-align: center;
+			bottom: 5px;
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 430px) {
+		#header h2,
+		#header h3,
+		#header h1 {
+			font-size: 24px;
+		}
+	}
+</style>

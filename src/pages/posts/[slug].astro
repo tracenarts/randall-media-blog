@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from "astro";
+import { render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import { posts, getNextPost, getLastPost } from "../../lib/posts.ts";
+
+export const getStaticPaths = (async() => {
+    return posts.map((post) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      last: getLastPost(post.id),
+      next: getNextPost(post.id)
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { post, last, next } = Astro.props;
+const { Content } = await render(post);
+---
+<Layout title={post.data.title} description={post.data.description} image={post.data.image}>
+  <h1>{post.data.title}</h1>
+  <Content />
+  <div class="content-footer">
+    {last ? <a href={`/posts/${last.id}`}>Last Post: {last.data.title}</a> : <div/>}
+    {next && <a href={`/posts/${next.id}`}>Next Post: {next.data.title}</a>}
+  </div>
+</Layout>
+
+<style>
+  .content-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>

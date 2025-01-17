@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randall's Media Thread Blog - (ENTRY NAME HERE)</title>
+    <meta content="TITLE HERE" property="og:title" />
+    <meta content="DESCRIPTION HERE" property="og:description" />
+    <meta content="LINK TO PAGE HERE" property="og:url" />
+    <meta content="WORK ON THIS LATER" property="og:image" />
+    <meta content="#7143B5" data-react-helmet="true" name="theme-color" />
+    <!-- WHY THE FUCK ARE THERE SO MANY OF THESE AND WHY DOES TWITTER NEED ITS OWN -->
+    <meta name="twitter:card" content="summary_large_image"></meta>
+
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<script src="https://randojs.com/1.0.0.js"></script>
+<script>
+    var headerImages = [
+        "header1.jpg",
+        "header2.webp",
+    ];
+
+    function showRandomHeaderImage() {
+        document.getElementsByClassName("header")[0].style.backgroundImage = "url('" + rando(headerImages).value + "')";
+    }
+</script>
+
+<body onload="showRandomHeaderImage();">
+    <div class="wrapper">
+
+        <div class="header">
+
+            <h1>Randall's Media Thread Blog</h1>
+
+        </div>
+
+        <div class="links"><a href="https://bsky.app/profile/did:plc:753lv7a7d6zmzklkcejtf7gp/post/3lftwp375v22q">← Back
+                to
+                Bluesky tweet</a> || <a href="https://revuestarlight.net/blog/archive/">Post Archive</a></div>
+
+        <div class="main">
+            <h1>MAIN TITLE ENTRY HERE</h1>
+            <h4>SUBTITLE HERE</h4>
+            <hr>
+            <p>
+                BODY TEXT
+            </p>
+            <h4>
+                IMAGE SUBTITLE TEXT
+            </h4>
+
+
+
+
+            <h1>Final rating:</h1>
+            <h1 style="font-size:75px; color:lime; margin-top:auto">8.5/10</h1>
+            <h3>FINAL THOUGHTS HERE</h3>
+            <br>
+            <hr>
+
+        </div>
+
+
+        <div class="footer">Base CSS made by EGGRAMEN, with <strike>frustration</strike> love.</div>
+    </div>
+
+
+
+
+</body>
+
+</html>

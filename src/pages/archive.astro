@@ -1,0 +1,70 @@
+---
+import { type Post, posts } from "../lib/posts.ts";
+
+const byMonth: Post[][] = Array.from({ length: 12}, _ => [])
+
+for (const post of posts) {
+    byMonth[post.data.posted.getMonth()].push(post)
+}
+
+const months = ['January', 'February', 'March', 'April','May','June','July','August','September','October','November','December']
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media Thread Archive</title>
+    </head>
+    <body style="background-color: black; color:lime;">
+        <pre>
+     _____                     .___        .__   .__   /\                                  
+\______   \_____     ____    __| _/_____   |  |  |  |  )/  ______                          
+ |       _/\__  \   /    \  / __ | \__  \  |  |  |  |     /  ___/                          
+ |    |   \ / __ \_|   |  \/ /_/ |  / __ \_|  |__|  |__   \___ \                           
+ |____|_  /(____  /|___|  /\____ | (____  /|____/|____/  /____  >                          
+        \/      \/      \/      \/      \/                    \/                           
+   _____               .___.__          ___________.__                                 .___
+  /     \    ____    __| _/|__|_____    \__    ___/|  |__  _______   ____  _____     __| _/
+ /  \ /  \ _/ __ \  / __ | |  |\__  \     |    |   |  |  \ \_  __ \_/ __ \ \__  \   / __ | 
+/    Y    \\  ___/ / /_/ | |  | / __ \_   |    |   |   Y  \ |  | \/\  ___/  / __ \_/ /_/ | 
+\____|__  / \___  >\____ | |__|(____  /   |____|   |___|  / |__|    \___  >(____  /\____ | 
+        \/      \/      \/          \/                  \/              \/      \/      \/ 
+   _____                   .__     .__                                                     
+  /  _  \  _______   ____  |  |__  |__|___  __  ____                                       
+ /  /_\  \ \_  __ \_/ ___\ |  |  \ |  |\  \/ /_/ __ \                                      
+/    |    \ |  | \/\  \___ |   Y  \|  | \   / \  ___/                                      
+\____|__  / |__|    \___  >|___|  /|__|  \_/   \___  >            
+</pre>
+        <style>
+            a:visited {
+                color: green !important;
+            }
+        </style>
+        ==================================================================================================
+        <br />
+        <br />
+        {byMonth.filter((m) => m.length > 0).map((monthPosts, month)=> (
+            <>
+                <h1 style="padding-left: 21px;">{months[month]}</h1>
+                <ul>
+            {
+                monthPosts.map((post) => (
+                    <li>
+                        <a
+                            href={`/posts/${post.id}`}
+                            style="color:rgb(51, 255, 0)"
+                        >
+                            {post.data.title}
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+            </>
+        ))}
+        <h1 style="padding-left: 21px;">
+        </h1>
+    </body>
+</html>
