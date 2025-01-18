@@ -14,3 +14,7 @@ export function getLastPost(postId: string): Post | null {
     const postIndex = posts.findIndex((post) => post.id == postId);
     return posts[postIndex - 1] ?? null;
 }
+
+export function getLatestPost(): Post {
+    return posts[posts.length -1];
+}

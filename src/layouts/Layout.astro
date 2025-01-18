@@ -36,21 +36,21 @@ const { title, description, image, bsky } = Astro.props;
 			</a>
 
 			<div class="links">
-				{
+				<!-- {
 					bsky && (
 						<>
 							<a href={bsky}>← Back to Bluesky tweet</a>
 							||
 						</>
 					)
-				}
+				} -->
 				<a href="/archive/">Post Archive</a>
 			</div>
 			<div class="main">
 				<slot />
 			</div>
 			<div class="footer">
-				Base CSS made by EGGRAMEN, with <strike>frustration</strike> love. Special thanks to <a style="color:#e486be" href="snep.pw">Snep</a> for making this project viable for me.
+				Base CSS made by EGGRAMEN, with <strike>frustration</strike> love. Special thanks to <a style="color:#e486be" href="https://snep.pw/">Snep</a> for making this project viable for me.
 			</div>
 		</div>
 	</body>
@@ -60,8 +60,8 @@ const { title, description, image, bsky } = Astro.props;
 	(() => {
 		const headerImages = [
 			"/img/headers/eupho1.png",
-			"/img/headers/saki.gif",
-			"/img/headers/zombie.gif",
+			"/img/headers/saki.webp",
+			"/img/headers/zombie.webp",
 			"/img/headers/yuki.webp",
 			"/img/headers/nanoha.webp",
 		];
@@ -87,7 +87,6 @@ const { title, description, image, bsky } = Astro.props;
 		border-bottom: 3px solid black;
 		margin: 0 auto;
 		overflow: hidden;
-		background: url("https://i.imgur.com/JnQEWOj.jpeg");
 		/*Header image -- replace with your own!*/
 		background-size: cover;
 	}

@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { render } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { posts, getNextPost, getLastPost } from "../../lib/posts.ts";
+import { posts, getNextPost, getLastPost,} from "../../lib/posts.ts";
 
 export const getStaticPaths = (async () => {
     return posts.map((post) => ({

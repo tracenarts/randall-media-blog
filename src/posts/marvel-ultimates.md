@@ -3,12 +3,14 @@ title: Ultimate Comics Ultimates (2011)
 posted: 2025-01-17
 bsky: "https://bsky.app/profile/revuestarlight.net/post/3lfvqaykoz22e"
 ---
+
 #### honestly I don't know what else to call this so I've just been calling it this. sorry.</h4>
+
 <hr>
 After spending years and years reading nothing but Manga <para>(since about middle school, when I first was
-given access to <em>inuyasha</em> at my local library)</para>,
+given access to <em>inuyasha</em> at my local library)</para>, 
 I had the sudden urge to start reading a western comic. With the recent release of <em>Marvel Rivals</em>, my
-slight adoration for capeshit (lovingly) sparked anew,
+slight adoration for capeshit (lovingly) sparked anew, 
 and I really wanted to check out some comics instead of being a dirty secondary like I have been for years. But
 where to choose from?
 There's around ten trillion years of Marvel backlog to go through, which is pretty daunting for someone who
@@ -59,7 +61,6 @@ me, ESPECIALLY some of his more bombastic sound effect works, like so:
 <img src="https://i.imgur.com/JZALkgs.jpeg">
 <br />
 
-
 <p> Absolutely beautiful. The color of the KKKKRSSSSHH! matching the window, the fragmenting of it matching the
 window breaking, all of it bending around the art itself without being too distracting or overbearing is
 honestly just as good as the art surrounding it. A wonderful sight for this picky eater. The choices of fonts
@@ -71,17 +72,15 @@ intentional and methodical. I salute you, king. </p>
 <img src="https://i.imgur.com/lHdTwLV.jpeg">
 <br />
 
-
 The first arc <para>(I'll be calling this "The City Arc")</para> was my favorite by far. It was a great story
-that made me feel like I could follow along pretty nicely with my movie-only knowledge of the Marvel universe,
+that made me feel like I could follow along pretty nicely with my movie-only knowledge of the Marvel universe, 
 save for a few things here and there. I was spoiled at the identity of The Maker through the aforementioned
 Rival Marvels stuff, but that didn't really spoil any of the rest of it for me, because it felt like a lot of it
 required knowledge of the Fantastic Four in general, of which I honestly didn't really give much of a shit about
-being a dirty smelly movie only secondary. The Fantastic Four movies aren't exactly well known for being good,
+being a dirty smelly movie only secondary. The Fantastic Four movies aren't exactly well known for being good, 
 after all. But apparently that isn't the case with the comics, which is a shame. The stores that are implied
 through the characters <para>(especially in the comic's final arc)</para> seem genuinely interesting and
 well-written, so I kinda can't wait to read those as well.
-
 
 My problems starting arising with the comic's 2nd arc: After the defeat of The Maker at the hands of The
 Ultimates, the story was very unceremoniously thrown into what felt like a B-plot involving the broken up United
@@ -91,11 +90,10 @@ scale of the series sadly went from "We have to save the world from this insanel
 "Hey Texas just threw a nuke at us, uhhh lets stop them from doing that I guess." Of course, I understood that
 they had to do this to set up the final arc by fleshing out Captain America a little more for the story.
 
-
 This brings my other real part of criticism with western comics as a whole: the replacement of art teams
 completely between arcs. As soon as the City arc was over, Esad Ribi's beautiful art was gone, and in it's place
 was something that was way more western-comicy to my eyes. It wasn't <b>Bad</b>, per se, but it was definitely
-not the same art as the previous chapters. It made the story feel like it lost a lot of it's excitement for me,
+not the same art as the previous chapters. It made the story feel like it lost a lot of it's excitement for me, 
 and it was also something I've never really experienced before because the idea of that happening for a manga
 series is just unheard of, and would honestly have people having meltdowns online over it. It's probably a
 normal thing for western comics, but it sure was a little bit of a downer for me.
@@ -106,7 +104,7 @@ normal thing for western comics, but it sure was a little bit of a downer for me
 
 <h4>After The City arc, the comic looked like this for almost the rest of the entire series.</h4>
 
-Much to my disarray, most of the important parts of this arc took place in my home town of Bakersfield,
+Much to my disarray, most of the important parts of this arc took place in my home town of Bakersfield, 
 California for some god forsaken reason. This gives it minus points. This is my domain and I make the rules.
 Anyway, a large chunk of the comic is just them trying to bring the United States back into one union. This
 stuff is pretty boring until they make Captain America the President of the United States in a honestly kind of
@@ -119,7 +117,6 @@ couldn't help but laugh the entire time at how absurd the entire thing was.
 <img src="https://i.imgur.com/nIWN3Xl.jpeg">
 <h4>like yeah man. sure. get in that fuckin jet and go kick some ass. oorah.</h4>
 
-
 That being said, this arc DOES end well. The final battle between Hydra and California versus the Ultimates was
 a fantastic fight with incredibly well-done visuals, and some beautiful framing. Also, it's just really fucking
 cool. It all felt very larger than life despite the rest of the arc feeling super grounded, and it was a nice
@@ -129,12 +126,11 @@ return to form for the rest of the story. Some real GAR shit honestly.
 <img src="https://i.imgur.com/WPod0ZZ.png">
 <h4>kino</h4>
 
-
 Finally, after all of the wars in America are solved <para>(my favorite being the Carolinas having their own
 special beef that was solved by Cap getting pissed off and forcing them to shake hands or eat shit)</para> we
 finally return to the story that started at the start of the comic. There was a few more things between this
 point, mostly with Hydra and the reveal of the Infinity Stones, but honestly I didn't care about any of that. I
-wanted to see Tony Stark get his head cut open. I could feel it coming closer and closer the more I read,
+wanted to see Tony Stark get his head cut open. I could feel it coming closer and closer the more I read, 
 knowing full well that Tony Stark's weird tumor hallucination child <para>(yes, really)</para> was actually one
 of the infinity stones manifesting a sentient brain tumor, which also gave said brain tumor the power to
 remotely control technology and was constantly used as a convenient MacGuffin whenever possible. I don't really
