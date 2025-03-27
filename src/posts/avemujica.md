@@ -2,6 +2,7 @@
 title: Ave Mujica, Or, the ascendancy of Sakiko Togawa
 posted: 2025-03-21
 bsky: "https://bsky.app/profile/revuestarlight.net/post/3lfvqaykoz22e"
+image: "/img/avemuji/card_img.png"
 ---
 
 #### still alive 命の歯車が so, still alive 回り出す</h4>
@@ -71,3 +72,11 @@ This is why she has to become God in her eyes. No longer wanting to be controlle
 ![image](/img/avemuji/god.jpg)
 
 Anyway I think I liked Ave Mujica. Also the music is really good. Please make more. <para>(post episode 13 update: they are making more, I guess.)</para>
+
+<hr>
+
+<h1>Final rating:</h1>
+<img src="/img/avemuji/rating.png" style="outline: none;"></img>
+<h3>4.5 out of 5 sakiko binguses</h3>
+
+<h3>Extremely strong show. Lots of drama packed into the episode, but the last episode made me feel like they forgot something. I guess I'll just wait for season 2? But I want more suffering nooooowwww :(</h3>
