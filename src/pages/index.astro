@@ -2,7 +2,7 @@
 import { render } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import { getLatestPost } from "../lib/posts.ts";
-import { getStaticPaths } from "./posts/[slug].astro";
+
 
 const post = getLatestPost();
 const { Content } = await render(post);
@@ -11,4 +11,5 @@ const { Content } = await render(post);
 <Layout title="Homepage" description="Randall's Media thread blog">
 	<h1>{post.data.title}</h1>
 	<Content />
+    </div>
 </Layout>
