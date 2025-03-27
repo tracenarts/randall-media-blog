@@ -1,7 +1,7 @@
 ---
 title: Ave Mujica, Or, the ascendancy of Sakiko Togawa
 posted: 2025-03-27
-image: /img/avemuji/card_img.png
+image: /img/avemuji/card-img.png
 ---
 
 #### still alive 命の歯車が so, still alive 回り出す</h4>
